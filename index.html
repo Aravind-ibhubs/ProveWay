@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prove Way</title>
+    <link rel="stylesheet" href="./pageStyling.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/metropolis" type="text/css"/>
+</head>
+<body>
+    <div class="block-page">
+        <h1> Bundle & Save</h1>
+        <div id="Pair-container-1" class="main-pair-container">
+            <div class="pair-container">
+                <div class="pair-input-container">
+                    <input type="radio" value="Pair1" id="pair1" name="pair" onchange="getContainer(value)" />
+                    <label class="pair-text-container" for="pair1">
+                        <h4 class="pair-text-title-1">1 Pair</h4>
+                        <h4 class="pair-text-title-1 pair-wider-text">DKK 195.00</h4>
+                    </label>
+                </div>
+                <h4 class="pair-text-title-1">50% OFF</h4>
+            </div>
+            <table id="Pair-Table-1" style="display: none;">
+                <tr>
+                    <th class="table-header">Size</th>
+                    <th class="table-header">Color</th>
+                </tr>
+                <tr>
+                    <td><span style="font-size: 9px;">#1</span>
+                        <select name="size" id="PairSize" class="table-selector">
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="color" id="PairColor" class="table-selector">
+                            <option value="Color">Color</option>
+                            <option value="blue">Blue</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span style="font-size: 9px;">#2</span>
+                        <select name="size" id="PairSize" class="table-selector">
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="color" id="PairColor" class="table-selector">
+                            <option value="Color">Color</option>
+                            <option value="blue">Blue</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="Pair-container-2"  class="main-pair-container">
+            <div class="pair-container">
+                <div class="pair-input-container">
+                    <input type="radio" value="Pair2" id="pair2" name="pair" onchange="getContainer(value)" />
+                    <label class="pair-text-container" for="pair2">
+                        <h4 class="pair-text-title-1">2 Pair</h4>
+                        <h4 class="pair-text-title-1 pair-wider-text">DKK 345.00</h4>
+                    </label>
+                </div>
+                <p class="pair-container-strike-text"><s>DKK 195.00</s></p>
+                <div class="pair-text-container">
+                    <h4 class="pair-2-text">Most Popular</h4>
+                    <h4 class="pair-text-title-1">40% OFF</h4>
+                </div>
+            </div>
+            <table id="Pair-Table-2" style="display: none;">
+                <tr>
+                    <th class="table-header">Size</th>
+                    <th class="table-header">Color</th>
+                </tr>
+                <tr>
+                    <td><span style="font-size: 9px;">#1</span>
+                        <select name="size" id="PairSize" class="table-selector">
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="color" id="PairColor" class="table-selector">
+                            <option value="Color">Color</option>
+                            <option value="blue">Blue</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span style="font-size: 9px;">#2</span>
+                        <select name="size" id="PairSize" class="table-selector">
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="color" id="PairColor" class="table-selector">
+                            <option value="Color">Color</option>
+                            <option value="blue">Blue</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="Pair-container-3" class="main-pair-container">
+            <div class="pair-container">
+                <div class="pair-input-container">
+                    <input type="radio" value="Pair3" id="pair3" name="pair" onchange="getContainer(value)"/>
+                    <label class="pair-text-container" for="pair3">
+                        <h4 class="pair-text-title-1">3 Pair</h4>
+                        <h4 class="pair-text-title-1 pair-wider-text">DKK 528.00</h4>
+                    </label>
+                </div>
+                <h4 class="pair-text-title-1">60% OFF</h4>
+            </div>
+            <table id="Pair-Table-3" style="display: none;">
+                <tr>
+                    <th class="table-header">Size</th>
+                    <th class="table-header">Color</th>
+                </tr>
+                <tr>
+                    <td><span style="font-size: 9px;">#1</span>
+                        <select name="size" id="PairSize" class="table-selector">
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="color" id="PairColor" class="table-selector">
+                            <option value="Color">Color</option>
+                            <option value="blue">Blue</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span style="font-size: 9px;">#2</span>
+                        <select name="size" id="PairSize" class="table-selector">
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="color" id="PairColor" class="table-selector">
+                            <option value="Color">Color</option>
+                            <option value="blue">Blue</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="pair-container-bottom">
+            <p class="pair-container-bottom-text">Free 2 Day Shipping</p>
+            <p>Total DKK : 366.00</p>
+        </div>
+        <div>
+            <button class="pair-container-button">+ Add to Cart</button>
+            <footer class="pair-container-copy-write"><span>&copy;</span> <i>Powered by Plumber</i></footer>
+        </div>
+    </div>
+    <script src="./javaScript.js"></script>
+</body>
+</html>
